@@ -1,0 +1,35 @@
+@font-face {
+  font-family: lato;
+  src: url(../../../assets/fonts/lato/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: zen-gothic;
+  src: url(../../../assets/fonts/zen-gothic/ZenKakuGothicNew-Medium.ttf);
+}
+
+body {
+  background-color: #6aff79;
+}
+
+article {
+  letter-spacing: 8px;
+  padding: 0.3rem 0 0 0.3rem;
+}
+
+body,
+h1,
+h2 {
+  margin: 0;
+  color: #ffeded;
+  text-shadow: -4px 3px 0 #3a50d9, 4px 3px 1px #3a50d9;
+}
+
+h1 {
+  font-family: lato;
+  font-size: 72px;
+}
+h2 {
+  font-size: 48px;
+  font-family: zen-gothic;
+}
